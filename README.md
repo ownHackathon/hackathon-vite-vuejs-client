@@ -1,1 +1,1 @@
-# hackathon-nuxt-client
+# hackathon-vite-vuejs-client
