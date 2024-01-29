@@ -14,16 +14,13 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v4.1.1
 
-      - name: Use Node.js 19
-        uses: actions/setup-node@v2
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4.0.1
         with:
-          node-version: '19'
+          node-version: '20'
 
       - name: npm install
         run: npm install
-
-      - name: Run create openapi Data
-        run: composer run-script openapi
 
       - name: npm run build
         run: npm run build
