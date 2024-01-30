@@ -14,7 +14,7 @@
             <svg class="w-[18px] h-[18px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/></svg>
             <span class="sr-only">Toggle sidebar</span>
           </button>
-          <a href="https://build.hackathon.exdrals.de" class="flex mr-4">
+          <a href="/" class="flex mr-4">
             <img src="@/assets/images/hackathon_logo.png" class="mr-3 h-8" alt="Hackathon Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hackathon</span>
           </a>
