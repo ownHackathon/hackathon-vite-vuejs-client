@@ -2,6 +2,8 @@
 import { RouterView } from 'vue-router'
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
+import HeaderNavigation from '@/components/header/HeaderNavigation.vue'
+import Footer from '@/components/Footer.vue'
 onMounted(() => {
   initFlowbite();
 })
@@ -9,7 +11,9 @@ onMounted(() => {
 
 <template>
   <div class="dark bg-gray-800">
-  <RouterView />
+    <HeaderNavigation />
+    <RouterView />
+    <Footer />
   </div>
 </template>
 
