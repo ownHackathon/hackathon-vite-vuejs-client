@@ -17,6 +17,6 @@ onMounted(() => {
   </div>
 </template>
 
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 
 </style>

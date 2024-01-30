@@ -57,5 +57,5 @@
   </section>
 </template>
 
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 </style>
