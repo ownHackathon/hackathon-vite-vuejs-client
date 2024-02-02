@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import LoginIcon from '@/components/icons/LoginIcon.vue'
+import UserIcon from '@/components/icons/UserIcon.vue'
 </script>
 
 <template>
@@ -32,13 +33,15 @@ import LoginIcon from '@/components/icons/LoginIcon.vue'
           </button>
           <div class="hidden sm:flex">
             <button type="button">
-              <div><span
-                class="text-gray-800 dark:text-gray-200 hover:dark:text-lime-400 text-xs bg-slate-900 border-slate-700 border-b border-t  px-10 py-1.5 mr-10">Anmelden</span>
+              <div class="flex">
+                <UserIcon />
+                <span
+                class="text-gray-800 dark:text-gray-200 hover:dark:text-lime-400 text-xs bg-slate-900 border-slate-700 px-1 py-1.5 mr-10">Anmelden</span>
               </div>
             </button>
             <button type="button">
               <div>
-                <span class="text-gray-800 dark:text-gray-200 font-bold hover:dark:text-lime-400 subpixel-antialiased  bg-primary-600 rounded-tr-3xl rounded-bl-3xl rounded-br border-t border-b border-primary-500  text-xs px-10 py-1.5 mr-10">
+                <span class="text-gray-800 dark:text-gray-200 font-bold hover:dark:text-gray-800 subpixel-antialiased  bg-primary-600 rounded-tr-3xl rounded-bl-3xl rounded-br border-t border-b border-primary-500 text-xs px-10 py-1.5 mr-10">
                   Registrieren
                 </span>
               </div>
