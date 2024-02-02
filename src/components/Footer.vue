@@ -3,9 +3,14 @@
 </script>
 
 <template>
-  <footer class="bg-white  sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-900 antialiased">
+  <div class="dark:bg-slate-950 flex items-center px-10">
+    <div class="flex-grow border-t border-gray-400"></div>
+    <span class="flex-shrink mx-4 text-gray-400">see you</span>
+    <div class="flex-grow border-t border-gray-400"></div>
+  </div>
+  <footer class="sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 bg-body dark:bg-slate-950">
     <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-      Lizenz <a href="https://github.com/ownHackathon/hackathon-api/blob/master/LICENSE" class="hover:underline text-red-800" target="_blank"> BSD 3-Clause</a>
+      Lizenz: <a href="https://github.com/ownHackathon/hackathon-api/blob/master/LICENSE" class="hover:underline text-rose-700 text-xs" target="_blank"> BSD 3-Clause</a>
     </p>
     <div class="flex justify-center items-center space-x-1">
       <a href="https://github.com/ownHackathon" target="_blank" data-tooltip-target="tooltip-github" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
@@ -15,7 +20,7 @@
         <span class="sr-only">Github</span>
       </a>
       <div id="tooltip-github" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Star us on GitHub
+        Star the project on GitHub
         <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
       <a href="https://discord.gg/uzqB4YmdTy" target="_blank" data-tooltip-target="tooltip-discord" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
@@ -25,7 +30,7 @@
         <span class="sr-only">Discord</span>
       </a>
       <div id="tooltip-discord" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-        Visit us on Discord
+        Visit the project on Discord
         <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
     </div>

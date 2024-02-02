@@ -10,7 +10,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="dark bg-gray-800">
+  <div class="dark">
     <HeaderNavigation />
     <RouterView />
     <Footer />
